@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.boot.CommandLineRunner;
+
 
 
 @SpringBootApplication
@@ -12,8 +15,14 @@ public class Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		logger.info("Info level log message");
-        logger.error("Error level log message");
 	}
+
+	@Bean
+    public CommandLineRunner commandLineRunner() {
+        return args -> {
+            logger.info("Info level log message");
+            logger.error("Error level log message");
+        };
+    }
 
 }
