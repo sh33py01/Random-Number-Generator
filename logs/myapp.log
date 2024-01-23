@@ -89,3 +89,17 @@ Verify the connector's configuration, identify and stop any process that's liste
 2024-01-23 15:47:10,477 INFO [main] R.Application Started Application in 2.708 seconds (JVM running for 3.199)
 2024-01-23 15:47:10,485 INFO [main] R.Application Info level log message
 2024-01-23 15:47:10,485 ERROR [main] R.Application Error level log message
+2024-01-23 16:06:48,114 INFO [main] R.Application Starting Application on DESKTOP-M15J138 with PID 20768 (C:\Users\user\Desktop\smth\Random-Number-Generator\target\classes started by user in C:\Users\user\Desktop\smth\Random-Number-Generator)
+2024-01-23 16:06:48,114 INFO [main] R.Application No active profile set, falling back to default profiles: default
+2024-01-23 16:06:49,655 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2024-01-23 16:06:49,666 INFO [main] o.a.c.h.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-23 16:06:49,688 INFO [main] o.a.c.c.StandardService Starting service [Tomcat]
+2024-01-23 16:06:49,688 INFO [main] o.a.c.c.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2024-01-23 16:06:49,794 INFO [main] o.a.c.c.C.[.[.[/] Initializing Spring embedded WebApplicationContext
+2024-01-23 16:06:49,794 INFO [main] o.s.w.c.ContextLoader Root WebApplicationContext: initialization completed in 1628 ms
+2024-01-23 16:06:50,026 INFO [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-23 16:06:50,279 INFO [main] o.a.c.h.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2024-01-23 16:06:50,305 INFO [main] o.s.b.w.e.t.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-23 16:06:50,310 INFO [main] R.Application Started Application in 2.683 seconds (JVM running for 3.154)
+2024-01-23 16:06:50,311 INFO [main] R.Application Info level log message
+2024-01-23 16:06:50,311 ERROR [main] R.Application Error level log message
